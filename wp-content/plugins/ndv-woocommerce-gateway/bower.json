@@ -1,0 +1,23 @@
+{
+  "name": "NDV Woocommerce Gateway Plugin",
+  "authors": [
+    "DinhLN <lenhatdinh@gmail.com>"
+  ],
+  "description": "NDV Woocommerce Gateway Plugin.",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.6",
+    "startbootstrap-sb-admin-2": "~1.0.8"
+  }
+}

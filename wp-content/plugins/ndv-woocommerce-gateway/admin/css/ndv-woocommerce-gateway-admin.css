@@ -1,0 +1,7 @@
+.hide {
+    display: none !important;
+}
+
+.cs-framework .cs-header, .cs-framework .cs-footer {
+    background-color: #dad8da !important;
+}

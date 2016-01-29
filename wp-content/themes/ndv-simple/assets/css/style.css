@@ -1,0 +1,82 @@
+.admin-bar .header-navbar-fixed #header-navbar{
+    top: 32px;
+}
+
+.admin-bar {
+    position: relative;
+}
+
+@media screen and (max-width: 782px) {
+    .admin-bar .header-navbar-fixed #header-navbar{
+        top: 0px;
+    }
+}
+
+.current-menu-item a {
+    color: #fff;
+}
+
+.nav-main .menu-item-has-children > a {
+    position: relative;
+    padding-right: 30px
+}
+
+.nav-main .menu-item-has-children > a:before {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 15px;
+    display: inline-block;
+    font-family: 'FontAwesome';
+    color: rgba(255, 255, 255, 0.25);
+    content: "\f104"
+}
+
+.nav-main .menu-item-has-children > a:before.nav-main .menu-item-has-children > a:before-fwidth {
+    width: 100%
+}
+
+.nav-main li.open > .menu-item-has-children > a {
+    color: #fff
+}
+
+.nav-main li.open > .menu-item-has-children > a > i {
+    color: #fff
+}
+
+.nav-main li.open > .menu-item-has-children > a:before {
+    content: "\f107"
+}
+
+.nav-main-header .menu-item-has-children > a {
+    position: relative;
+    padding-right: 32px
+}
+
+.nav-main-header .menu-item-has-children > a:before {
+    position: absolute;
+    right: 10px;
+    font-family: 'FontAwesome';
+    content: "\f107"
+}
+
+.nav-main-header > li:hover > .menu-item-has-children > a {
+    color: #fff
+}
+
+.nav-pills > li.current_page_item > a, .nav-pills > li.current_page_item > a:hover, .nav-pills > li.current_page_item > a:focus {
+    color: #fff;
+    background-color: #5c90d2;
+}
+
+.woocommerce td.product-name dl.variation dt, .woocommerce td.product-name dl.variation dd {
+    font-size: 12px;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.dwqa-list-question .dwqa-header {
+    padding: 6px 0px 0px 20px;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "jquery-scrollLock",
+  "version": "1.1.1",
+  "main": "jquery-scrollLock.js",
+  "license": "MIT",
+  "ignore": [
+    ".gitignore",
+    "scrollLock.jquery.json"
+  ],
+  "dependencies": {
+    "jquery": ">=1.7"
+  },
+  "homepage": "https://github.com/MohammadYounes/jquery-scrollLock",
+  "_release": "1.1.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.1.1",
+    "commit": "dd4a36457923c46550eeb392cc84f368d4bfe71f"
+  },
+  "_source": "git://github.com/MohammadYounes/jquery-scrollLock.git",
+  "_target": "~1.1.1",
+  "_originalSource": "jquery-scrollLock"
+}
